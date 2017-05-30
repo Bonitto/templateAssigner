@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.7" type="plugin">
+	<name>plg_template_assigner</name>
+	<author>Bonitto Daley</author>
+	<creationDate>May 29, 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>webmaster@icandywebs.com</authorEmail>
+	<authorUrl>icandywebs.com</authorUrl>
+	<version>1.0</version>
+	<description>This plugin will allow you to override your default front end template with a template of your choosing without having to create a Joomla menu item.</description>
+	<files>
+		<filename plugin="templateAssigner">templateAssigner.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages></languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="component">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
